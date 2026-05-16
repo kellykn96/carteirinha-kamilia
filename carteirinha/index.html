@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Carteirinha</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;   /* continua centralizado */
+      align-items: flex-start;   /* no topo */
+      background: #fff;
+    }
+
+    .carteirinha {
+      width: 100%;          /* ocupa toda a largura */
+      margin-top: 20px;
+    }
+
+    .carteirinha img {
+      width: 100%;          /* esquerda → direita */
+      height: auto;
+      display: block;       /* remove espaços fantasmas */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="carteirinha">
+    <img src="carteirinha-qr.jpg" alt="Carteirinha do estudante">
+  </div>
+
+</body>
+</html>
